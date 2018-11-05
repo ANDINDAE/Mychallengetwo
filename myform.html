@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="mystyleform.css">
+    <title></title>
+  </head>
+  <body>
+    <h1 id="title"><font color="red"><marquee><dir="left">Survey Form for Computer Science students at University</marquee></dir></h1>
+    <div id="form-outer"> 
+      <p id="description">
+        All students should add their personal data in this form for proper follow up.
+      </p>
+      <form id="survey-form">
+        <div class="rowTab">
+          <div class="labels">
+            <label id="name-label" for="name">* Name: </label>
+          </div>
+          <div class="rightTab">
+            <input autofocus type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required>
+          </div>
+        </div>
+        <div class="rowTab">
+          <div class="labels">
+            <label id="email-label" for="email">* Email: </label>
+          </div>
+          <div class="rightTab">
+            <input type="email" name="email" id="email" class="input-field" required placeholder="Enter your Email">
+          </div>
+        </div>
+        <div class="rowTab">
+          <div class="labels">
+            <label id="number-label" for="age">* Age: </label>
+          </div>
+          <div class="rightTab">
+            <input type="number" name="age" id="number" min="1" max="125" class="input-field" placeholder="Age">
+          </div>
+        </div>
+		<div>
+        <div class="rowTab">
+          <div class="labels">
+            <label id="number-label" for="Date of birth">* Date of birth: </label>
+          </div>
+          <div class="rightTab">
+            <input type="number" name="Date of birth" id="number" min="1" max="125" class="input-field" placeholder="Date of birth">
+          </div>
+		  
+		  <div>
+        <div class="rowTab">
+          <div class="labels">
+            <label id="number-label" for="phone contact">* phone contact: </label>
+          </div>
+          <div class="rightTab">
+            <input type="number" name="phone contact" id="number" min="1" max="125" class="input-field" placeholder="phone contact">
+          </div>
+        <div class="rowTab">
+          <div class="labels">
+            <label for="currentPos">What is your country of origin?</label>
+          </div>
+          <div class="rightTab">
+            <select id="dropdown" name="currentPos" class="dropdown">
+          <option disabled value>Select an option</option>
+          <option  value="Uganda">Uganda</option>
+          <option value="Congo">Congo</option>
+		  <option value="Kenya">Kenya</option>
+		  <option value="Rwanda">Rwanda</option>
+		  <option value="Burundi">Burundi</option>
+		  <option value="South Sudan</">South Sudan</option>
+          <option value="Tanzania">Tanzania</option>
+          <option value="UK">UK</option>
+          <option value="USA">USA</option>
+        </select>
+          </div>
+        </div>
+        <div class="rowTab">
+          <div class="labels">
+            <label for="userRating">* What do you want to become in future?</label>
+          </div>
+          <div class="rightTab">
+            <ul style="list-style: none;">
+              <li class="radio"><label>A soft ware developer<input name="radio-buttons" value="1"  type="radio" class="userRatings" ></label></li>
+              <li class="radio"><label>A system Analyst<input name="radio-buttons" value="2"  type="radio" class="userRatings" ></label></li>
+              <li class="radio"><label>A Data scientist <input name="radio-buttons" value="3"  type="radio" class="userRatings" ></label></li>
+            <li class="radio"><label>A nano technologist<input name="radio-buttons" value="1"  type="radio" class="userRatings" ></label></li>
+              <li class="radio"><label>A telecoms engineer<input name="radio-buttons" value="2"  type="radio" class="userRatings" ></label></li>
+              <li class="radio"><label>A data base manager <input name="radio-buttons" value="3"  type="radio" class="userRatings" ></label
+			
+			</ul>
+          </div>
+        </div>
+        <div class="rowTab">
+          <div class="labels">
+            <label for="most-like">Why did you choose Cavendish University Uganda?</label>
+          </div>
+          <div class="rightTab">
+            <select id="most-like" name="mostLike" class="drop down">
+          <option disabled selected value>Select an option</option>
+          <option value="Its an international University">Its an international University</option>
+          <option value="It has an e-learning platform">It has an e-learning platform</option>
+          <option value="Tuition is cheap"></option>
+          <option value="openSource">Am not A Ugandan</option>
+        </select>
+          </div>
+        </div>
+        <div class="rowTab">
+          <div class="labels">
+            <label for="preferences">Other computing courses offered at Cavendish University Uganda<br>(Check all that apply): </label>
+          </div>
+          <div class="rightTab">
+            <ul id="preferences" style="list-style: none;">
+              <li class="checkbox"><label><input name="prefer" value="1" type="checkbox" class="userRatings">Information technology</label></li>
+              <li class="checkbox"><input name="prefer" value="2" type="checkbox" class="userRatings">Rocket Science</li>
+              <li class="checkbox"><label><input name="prefer" value="3" type="checkbox" class="userRatings">Nano Technology</label></li>
+              <li class="checkbox"><label><input name="prefer" value="4" type="checkbox" class="userRatings">Data Science</label></li>
+              <li class="checkbox"><label><input name="prefer" value="5" type="checkbox" class="userRatings">Basic computer applications</label></li>
+              <li class="checkbox"><label><input name="prefer" value="6" type="checkbox" class="userRatings">Artificial Intelligence</label></li>
+              <li class="checkbox"><label><input name="prefer" value="7" type="checkbox" class="userRatings">Business computing</label></li>
+              <li class="checkbox"><label><input name="prefer" value="8" type="checkbox" class="userRatings">Cisco</label></li>
+              <li class="checkbox"><label><input name="prefer" value="9" type="checkbox" class="userRatings">Net work administration</label></li>
+              <li class="checkbox"><label><input name="prefer" value="10" type="checkbox" class="userRatings">soft ware engineering</label></li>
+              <li class="checkbox"><label><input name="prefer" value="10" type="checkbox" class="userRatings">Telecoms engineering</label></li>
+            </ul>
+          </div>
+        </div>
+        <div class="rowTab">
+          <div class="labels">
+            <label for="comments"></label>
+			<label for="Health statusS">Do you have any disabilities or health issues?</label>
+          </div>
+		  <div class="rightTab">
+            <ul style="list-style: none;">
+              <li class="radio"><label>Yes<input name="radio-buttons" value="1"  type="radio" class="userRatings" ></label></li>
+              <li class="radio"><label>No<input name="radio-buttons" value="2"  type="radio" class="userRatings" ></label></li>
+              </ul>
+          </div>
+          <div class="rightTab">
+            <textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="comment" placeholder="if Yes please give details here......."></textarea>
+          </div>
+        </div>
+        <button id="submit" type="submit">Submit</button>
+      </form>
+    </div>
+  </font color>
+  </body>
+</html>
