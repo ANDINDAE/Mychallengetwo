@@ -1,5 +1,5 @@
 
-## Creting a Survey Form for University Students
+## Designing a Survey Form for University Students
 
 ### Form Main Content.
 This form aids students to fill in their details and background information and why they choose to join Cavendsih University Uganda. It is designed to capture information about the student geerally.
